@@ -1,0 +1,11 @@
+{
+  "generator-angular-pro": {
+    "version": "2.2.3",
+    "props": {
+      "appName": "WM 2018",
+      "target": "web",
+      "ui": "bootstrap",
+      "projectName": "wm-2018"
+    }
+  }
+}

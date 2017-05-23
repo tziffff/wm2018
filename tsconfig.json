@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "baseUrl": "sources/main",
+    "module": "commonjs",
+    "moduleResolution": "classic",
+    "sourceMap": true,
+    "types": []
+  },
+  "files": [
+    "typings/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings",
+    "sources/libraries",
+    "plugins",
+    "platforms"
+  ]
+}
