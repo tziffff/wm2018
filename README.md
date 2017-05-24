@@ -6,8 +6,8 @@ An awesome project scaffolded by the [angular-pro](https://github.com/angular-st
 
 Einrichten:
 
-git config --global user.name "USERNAME bei Github"
-git config --global user.email "Email bei Github" 
+1. git config --global user.name "USERNAME bei Github"
+2. git config --global user.email "Email bei Github" 
 
 Download:
 
