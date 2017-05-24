@@ -2,6 +2,26 @@
 
 An awesome project scaffolded by the [angular-pro](https://github.com/angular-starter-kit/generator-angular-pro) Yeoman generator!
 
+#GIT 
+
+Einrichten:
+
+git config --global user.name "USERNAME bei Github"
+git config --global user.email "Email bei Github" 
+
+Download:
+
+1. Verzeichnis erstellen
+2. git clone https://github.com/tziffff/wm2018
+
+Upload:
+
+1. zum Verzeichnis wechseln
+2. git add --all
+3. git commit -m "kurzer Text was Ihr gemacht habt"
+4. git push
+
+
 # Getting started
 
 1. Install required tools `gulp` and `bower`:
