@@ -23,10 +23,31 @@
                 <span translate>Home</span>
               </a>
             </li>
-            <li ng-class="{ active: shell.stateContains('app.about') }">
-              <a class="nav-item text-uppercase" ui-sref="app.about">
+            <li ng-class="{ active: shell.stateContains('app.einstellungen') }">
+              <a class="nav-item text-uppercase" ui-sref="app.einstellungen">
                 <i class="fa fa-question-circle"></i>
-                <span translate>About</span>
+                <span translate>Einstellungen</span>
+              </a>
+            </li>
+            
+            <li ng-class="{ active: shell.stateContains('app.gruppen') }">
+              <a class="nav-item text-uppercase" ui-sref="app.gruppen">
+                <i class="fa fa-question-circle"></i>
+                <span translate>Gruppenphase</span>
+              </a>
+            </li>
+            
+            <li ng-class="{ active: shell.stateContains('app.ko') }">
+              <a class="nav-item text-uppercase" ui-sref="app.ko">
+                <i class="fa fa-question-circle"></i>
+                <span translate>Ko-Phase</span>
+              </a>
+            
+            </li>
+            <li ng-class="{ active: shell.stateContains('app.finale') }">
+              <a class="nav-item text-uppercase" ui-sref="app.finale">
+                <i class="fa fa-question-circle"></i>
+                <span translate>Finale</span>
               </a>
             </li>
           </ul>
