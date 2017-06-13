@@ -1,5 +1,4 @@
 
-
 <?php
 $servername = "193.196.143.168";
 $username = "rk7s-gruppe6";
@@ -21,11 +20,17 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["ID"]. " - Name: " . $row["NAME"].  " <br>";
+        $arr = array('Id:' => $row["ID"], 'Name' => $row["NAME"] );
+        echo json_encode($arr);
     }
 } else {
     echo "0 results";
 }
+
+
+
+
 $conn->close();
 ?>
+
 
